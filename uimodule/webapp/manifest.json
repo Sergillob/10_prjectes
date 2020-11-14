@@ -76,6 +76,27 @@
           "target": [
             "TargetMain"
           ]
+        },
+        {
+          "name": "Tiles",
+          "pattern": "",
+          "target": [
+            "Tiles"
+          ]
+        },
+        {
+          "name": "first",
+          "pattern": "first",
+          "target": [
+            "Countdown"
+          ]
+        },
+        {
+          "name": "second",
+          "pattern": "second",
+          "target": [
+            "Covid"
+          ]
         }
       ],
       "targets": {
@@ -84,6 +105,24 @@
           "viewLevel": 1,
           "viewId": "idAppControl",
           "viewName": "Main"
+        },
+        "Tiles": {
+          "viewType": "XML",
+          "viewId": "Tiles",
+          "viewName": "Tiles",
+          "controlId": "idAppControl"
+        },
+        "Countdown": {
+          "viewType": "XML",
+          "viewId": "countdown.Countdown",
+          "viewName": "countdown.Countdown",
+          "controlId": "idAppControl"
+        },
+        "Covid": {
+          "viewType": "XML",
+          "viewId": "covid.Covid",
+          "viewName": "covid.Covid",
+          "controlId": "idAppControl"
         }
       }
     }

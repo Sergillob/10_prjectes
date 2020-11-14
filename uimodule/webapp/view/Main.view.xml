@@ -1,12 +1,9 @@
- <mvc:View controllerName="com.te.teProjects.controller.Main"
-  displayBlock="true"
+<mvc:View controllerName="com.te.teProjects.controller.Main" displayBlock="true"
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc">
-  <App id="idAppControl" >
-    <pages>
-      <Page title="{i18n>title}">
-        <content></content>
-      </Page>
-    </pages>
-  </App>
+  <Shell>
+    <App id="idAppControl">
+
+    </App>
+  </Shell>
 </mvc:View>
