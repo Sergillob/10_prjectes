@@ -97,6 +97,20 @@
           "target": [
             "Covid"
           ]
+        },
+        {
+          "name": "second-list",
+          "pattern": "second-list",
+          "target": [
+            "Covid-List"
+          ]
+        },
+        {
+          "name": "second-pie",
+          "pattern": "second-pie",
+          "target": [
+            "Covid-Pie"
+          ]
         }
       ],
       "targets": {
@@ -122,6 +136,18 @@
           "viewType": "XML",
           "viewId": "covid.Covid",
           "viewName": "covid.Covid",
+          "controlId": "idAppControl"
+        },
+        "Covid-List": {
+          "viewType": "XML",
+          "viewId": "covid.List",
+          "viewName": "covid.List",
+          "controlId": "idAppControl"
+        },
+        "Covid-Pie": {
+          "viewType": "XML",
+          "viewId": "covid.Pie",
+          "viewName": "covid.Pie",
           "controlId": "idAppControl"
         }
       }
